@@ -23,6 +23,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.СтатусыАбонементов</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиПосещений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3f1ace8d-0040-435e-96c6-8f38755ed43b">
@@ -68,6 +70,10 @@
       <type>
         <types>DocumentRef.Абонемент</types>
       </type>
+      <choiceParameterLinks>
+        <name>Отбор.Человек</name>
+        <field>Document.ФиксацияПосещений.TabularSection.Посещения.Attribute.Человек</field>
+      </choiceParameterLinks>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>

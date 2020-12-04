@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6187a144-10b4-448a-96b4-c2dfc1527085">
+  <producedTypes>
+    <selectionType typeId="dc96b25a-1216-4d0b-a900-ea1db7b06923" valueTypeId="86f05f77-01d0-4567-ae03-a9c8fbb92d55"/>
+    <listType typeId="442637aa-09e9-478b-8a78-e781fa06f9c5" valueTypeId="dd39d37e-9c43-4e6e-9fbd-bab63202cf8b"/>
+    <managerType typeId="00748451-6a81-4d8b-95da-1571a2b5a43e" valueTypeId="bbdce13c-f958-46fd-a39c-174e5ddf7743"/>
+    <recordSetType typeId="0745f877-ef5e-41e4-b5d7-6c0195d6be79" valueTypeId="719be23f-5743-4355-ae9e-bea1b207660e"/>
+    <recordKeyType typeId="df151010-19be-4fa4-a9ad-13f655d0d74f" valueTypeId="29809e8f-8fa8-47be-92a6-d5ca2f9b51d2"/>
+    <recordType typeId="aabae6d6-7b23-4bb4-8001-1859bb3cd5a2" valueTypeId="f198451c-f0cc-49fb-9f7c-56c54dce2a28"/>
+    <recordManagerType typeId="1dc358c5-9df5-4c08-8e88-86a79cdca03f" valueTypeId="70738c88-d248-4440-80cf-4f1437fd8ed9"/>
+  </producedTypes>
+  <name>СтатусыАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="40f980fc-f55f-4c03-9254-04ff8ab838dd">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыАбонементов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="144a1c19-9922-45de-befa-d08c73fe3698">
+    <name>Абонемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонемент</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Абонемент</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

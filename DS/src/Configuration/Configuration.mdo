@@ -40,5 +40,9 @@
   <documents>Document.Абонемент</documents>
   <documents>Document.Курс</documents>
   <documents>Document.ФиксацияПосещений</documents>
+  <enums>Enum.СтатусыАбонементов</enums>
+  <enums>Enum.ВидыПериодов</enums>
   <informationRegisters>InformationRegister.СтоимостьАбонементов</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусыАбонементов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПосещений</accumulationRegisters>
 </mdclass:Configuration>

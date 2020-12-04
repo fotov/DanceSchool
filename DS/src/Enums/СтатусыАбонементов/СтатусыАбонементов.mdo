@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cefae1c2-667b-4d4c-b566-482452c1849c">
+  <producedTypes>
+    <refType typeId="1f73a0bb-b9e9-4fa3-8e40-b97bccac82b0" valueTypeId="702e052e-ab66-4637-ba4e-29d513f89c6a"/>
+    <listType typeId="9d5486f8-069b-49cc-986d-7fc2bad476a3" valueTypeId="7080abcb-343b-4ce7-8e70-d5c46eff566f"/>
+    <managerType typeId="f42bec57-c302-4edc-81fd-50fc2498428b" valueTypeId="9d6cdde9-1b81-48e8-b770-ae0dd6576cf3"/>
+  </producedTypes>
+  <name>СтатусыАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы абонементов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="993458bc-2b04-46ec-ae1e-9fd17aad4e1f">
+    <name>НеАктивирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не активирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2cd0e81-f3c2-403c-90bd-fbeede5c1609">
+    <name>Активирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eac99059-79fc-4bef-b628-4d5686839985">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

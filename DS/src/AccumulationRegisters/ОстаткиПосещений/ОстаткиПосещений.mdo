@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae90c0f0-55ea-4454-b0a1-26bcccea7fa5">
+  <producedTypes>
+    <selectionType typeId="0a15ce7f-85df-4e41-9156-e177a0374f9d" valueTypeId="407d97b3-bc4b-47fe-ab67-20324a7ae1fa"/>
+    <listType typeId="af696f24-9fa8-4699-a934-6614eef3e6b9" valueTypeId="ed9ea420-13dc-43a1-9e8a-b0d69cee7cbb"/>
+    <managerType typeId="af5946a2-5224-43fe-bb92-3d97b8449f32" valueTypeId="21caff8e-bf59-4aa6-8177-9b1eae1924d8"/>
+    <recordSetType typeId="9053a173-5d56-472c-8584-3d955e4f03bb" valueTypeId="aa445cc1-3099-4d49-89c4-8e79202e17b6"/>
+    <recordKeyType typeId="46dd9298-20d3-40ad-bb87-75dce15a0293" valueTypeId="f535ed5c-9265-4464-8bb7-764392ff1429"/>
+    <recordType typeId="b7a7fd96-361d-4dac-939b-8002867fdacf" valueTypeId="c38000e3-2120-40fd-a867-d53b5d2f12db"/>
+  </producedTypes>
+  <name>ОстаткиПосещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки посещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="574d2265-c99e-415b-b5c5-c0e0e8150712">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="09b30e0b-f00b-4871-8e78-8a199747e2fa">
+    <name>Абонемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонемент</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Абонемент</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

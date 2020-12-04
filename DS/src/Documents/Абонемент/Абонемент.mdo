@@ -23,13 +23,15 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <registerRecords>InformationRegister.СтатусыАбонементов</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиПосещений</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="3667127c-0853-4dcc-9f0a-f86e64334ec0">
-    <name>ФизическоеЛицо</name>
+    <name>Человек</name>
     <synonym>
       <key>ru</key>
-      <value>Физическое лицо</value>
+      <value>Человек</value>
     </synonym>
     <type>
       <types>CatalogRef.Люди</types>
