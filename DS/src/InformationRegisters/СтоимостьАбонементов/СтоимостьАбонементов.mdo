@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64c081db-08cd-4c4d-a8f2-e4331f35cf4b">
+  <producedTypes>
+    <selectionType typeId="d70c39d3-6b94-4b8c-bbc0-4e332f6ed084" valueTypeId="670b953d-bde1-478b-9787-5ff68c8f4f3f"/>
+    <listType typeId="f3dabb33-5e71-4e80-b0bc-05ccd9544e5e" valueTypeId="a31b935b-7807-4476-9f3c-fb86f9f88054"/>
+    <managerType typeId="303f38a9-3a12-4ee1-b2bf-e207a2c816ab" valueTypeId="3fb67abd-2d4f-431d-ae72-a81340936920"/>
+    <recordSetType typeId="8532fe15-c050-458c-b6ca-4f901e762154" valueTypeId="9ee7b0a4-3192-46d7-bf2d-da6d3dbe0ce0"/>
+    <recordKeyType typeId="623b7e86-c844-4973-a03f-bd8dacc4a377" valueTypeId="d21dd129-bffc-4258-b30f-38ca9a8de46d"/>
+    <recordType typeId="e7e34bde-7065-4e03-9127-6412456918f9" valueTypeId="f51a1f78-8f5c-4ac8-8a2b-13e4a7ccbbbf"/>
+    <recordManagerType typeId="6ff66790-4c9f-4097-a097-9fd76aedbc07" valueTypeId="7f90807d-e029-4416-b404-6043138986fb"/>
+  </producedTypes>
+  <name>СтоимостьАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="820d6593-1456-436c-89e2-d2162da4973f">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+  <dimensions uuid="7d306d87-b88b-4986-8e4e-93b500d64a69">
+    <name>ВидАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид абонемента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАбонементов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

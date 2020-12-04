@@ -40,4 +40,5 @@
   <documents>Document.Абонемент</documents>
   <documents>Document.Курс</documents>
   <documents>Document.ФиксацияПосещений</documents>
+  <informationRegisters>InformationRegister.СтоимостьАбонементов</informationRegisters>
 </mdclass:Configuration>
