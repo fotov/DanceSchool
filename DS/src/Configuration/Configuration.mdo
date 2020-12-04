@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41bf4430-1468-42a8-93c5-a3b8237b6850">
+  <name>ШколаТанцев</name>
+  <synonym>
+    <key>ru</key>
+    <value>Школа танцев</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cebbaaeb-fe8d-43bd-add2-1d2f6837faf8"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="d913f18f-b114-4071-a7da-1e0bf78da90a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8abc0ea2-d9bf-4344-8b99-ad9e0ff005b7"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="eb2b8161-2c5c-4b72-965f-f8e6f03c9ea3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a4cdfe5e-90eb-4c3a-8dfd-25a7ddf37cc3"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="e891a71d-9ab6-4a98-b379-54ef00cb2b56"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="21ee26ef-9836-4407-9bd9-43d294b70614"/>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.1.1</version>
+  <requiredMobileApplicationPermissions>
+    <permission>AllowOSBackup</permission>
+    <use>true</use>
+  </requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="e84ff18d-fab4-4010-9419-014a374eb84b">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Люди</catalogs>
+  <catalogs>Catalog.ВидыАбонементов</catalogs>
+  <documents>Document.Абонемент</documents>
+  <documents>Document.Курс</documents>
+  <documents>Document.ФиксацияПосещений</documents>
+</mdclass:Configuration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21f5d5b4-abb8-496e-9e7b-e34815010d0f">
+  <producedTypes>
+    <objectType typeId="d17c36f6-97de-4698-8a4e-05105d5a6720" valueTypeId="1518d46d-4af9-48f8-a013-61b280455e1f"/>
+    <refType typeId="a0b08467-53e4-4689-8422-d36476515556" valueTypeId="8cf53636-1ce7-4c9b-9411-a0732004927a"/>
+    <selectionType typeId="9e36fd7e-20cc-4fae-ac50-5997f543cca4" valueTypeId="8d6cd5ed-b966-4aca-be3b-0aec5fdc1326"/>
+    <listType typeId="49eb9753-1b5f-4dc6-9479-0886015fbc0b" valueTypeId="31ab595d-18f1-470b-a6aa-a0b6b969b851"/>
+    <managerType typeId="5427e380-8d1b-4bed-a15f-909d6af0cd5f" valueTypeId="54861e8f-72c8-4274-9f04-666486bdbfad"/>
+  </producedTypes>
+  <name>Курс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Курс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Курс.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

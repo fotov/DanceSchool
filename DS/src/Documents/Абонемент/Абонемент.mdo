@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b90c8427-269c-44bb-912a-9ed86336fe48">
+  <producedTypes>
+    <objectType typeId="55cd1c5e-53f4-4c05-b88e-ec0d63fcf69f" valueTypeId="d16ec3d1-a321-4664-9c5f-cc7a63aeaa3a"/>
+    <refType typeId="a7837129-9134-4b02-9ce5-decf99d58c6f" valueTypeId="a034c544-1a4f-4ceb-b8a8-f0fbcd3a13d9"/>
+    <selectionType typeId="617b92a1-cab9-4093-916e-a0b695aa0738" valueTypeId="f665e709-7295-4fa8-8697-9ac105153a76"/>
+    <listType typeId="e20e73db-f5f4-4578-932e-8cf067990f12" valueTypeId="710f6dd8-d765-48a2-894c-e62ff1ee8484"/>
+    <managerType typeId="c4cb5748-b4f6-47cc-9291-3d7c537e2d3e" valueTypeId="6d60f762-5cee-45f3-b263-6669e2cb1ff9"/>
+  </producedTypes>
+  <name>Абонемент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонемент</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Абонемент.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3667127c-0853-4dcc-9f0a-f86e64334ec0">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Люди</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a98169d8-c403-44be-ad71-b3aea0367b64">
+    <name>ВидАбонемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид абонемента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыАбонементов</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="01bfda06-ef82-4492-95b8-08bf0fe98ebb">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Курс</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28ff2f30-7bbc-4e5a-8994-e4965b69e911">
+  <producedTypes>
+    <objectType typeId="91038fa3-6e42-40ab-9213-b014564e5789" valueTypeId="e14a02f5-8b36-4ddd-bccf-d8f2dadf9887"/>
+    <refType typeId="2f1ba297-d29a-4b0d-a15f-1bc55c62a2fc" valueTypeId="f1c5d1f8-fb75-4cbc-aee6-1b5d5aae61c9"/>
+    <selectionType typeId="782ace2d-fe65-4ba5-b3c9-fd4bd8db9fb7" valueTypeId="57e537cb-67ba-4600-9fca-e0bf24bb89c4"/>
+    <listType typeId="e62ba0fc-114e-43c9-b229-f9d272527d38" valueTypeId="4af6fc2c-e82f-4503-bbb9-fd01a945f2ec"/>
+    <managerType typeId="c5b87eef-0d15-4f58-879d-2074f7a58fce" valueTypeId="f1d2e7d7-8bd3-47b5-90aa-55efc83591ad"/>
+  </producedTypes>
+  <name>Люди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Люди</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Люди.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Люди.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Человек</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

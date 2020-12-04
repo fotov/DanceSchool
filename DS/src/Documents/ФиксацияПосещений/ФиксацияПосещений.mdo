@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9aa6c29-ed0a-4f93-8d8b-81ef2f6eabe9">
+  <producedTypes>
+    <objectType typeId="2e059d0e-a7bc-440a-bc5b-9f4decccde20" valueTypeId="250783bf-66f1-4411-b8b8-9d7232129461"/>
+    <refType typeId="d0626625-8a2e-4412-bd33-61e0eaad9189" valueTypeId="dac57d6d-eac5-45fa-98dd-45c3019f69bf"/>
+    <selectionType typeId="4b17a1e9-ffe6-4086-9cc4-c5d3835ad264" valueTypeId="c9c124eb-6439-4944-9720-42117244758b"/>
+    <listType typeId="276e6268-3fc7-44f9-b6d0-08d130ee1314" valueTypeId="d82c720e-bf5a-4700-b8a2-2657957ba9cc"/>
+    <managerType typeId="01aa13fa-4008-4358-b377-80a744a541b5" valueTypeId="6e04b191-dd26-4a02-93b0-6d59dc34cd35"/>
+  </producedTypes>
+  <name>ФиксацияПосещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фиксация посещений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ФиксацияПосещений.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="3f1ace8d-0040-435e-96c6-8f38755ed43b">
+    <name>Курс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курс</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Курс</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1259075b-a266-4daa-8b35-cc88728ad6cb">
+    <producedTypes>
+      <objectType typeId="2bbb8fa0-07bd-4aa3-a1ee-51cc9d05666b" valueTypeId="1e10f246-d085-4a9c-9335-e6b15ff6963f"/>
+      <rowType typeId="a50806e3-0e17-486c-badd-5712b6f1ded6" valueTypeId="dd17b469-0101-4420-8f13-23cb7fa6174b"/>
+    </producedTypes>
+    <name>Посещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посещения</value>
+    </synonym>
+    <attributes uuid="7d991833-553f-4c3b-a555-f88ba57ba874">
+      <name>Человек</name>
+      <synonym>
+        <key>ru</key>
+        <value>Человек</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Люди</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="36af4d35-b915-413b-8131-124cad55e346">
+      <name>Абонемент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Абонемент</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.Абонемент</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

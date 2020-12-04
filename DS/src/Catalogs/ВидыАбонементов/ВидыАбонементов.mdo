@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7897e7e5-c69c-4b4a-a4ce-7dfd31b3736d">
+  <producedTypes>
+    <objectType typeId="f601140c-e2e1-4133-9140-30469b0dae88" valueTypeId="e405f503-190d-4906-9b02-9314335a3d68"/>
+    <refType typeId="a240f8bd-3124-4d5b-9dff-94fd8c4d0bf7" valueTypeId="53e22623-2a18-4dc6-adea-8af7c7971abe"/>
+    <selectionType typeId="088c9ec9-fa95-42d9-90d8-738750706320" valueTypeId="fe78c5c3-8ff6-4cad-83d8-2c291d6d9466"/>
+    <listType typeId="24511b1d-df46-49eb-8a53-17e93613fb17" valueTypeId="55a7e32d-16d7-4e56-8766-b8dd8db1cc9d"/>
+    <managerType typeId="8a5b2a26-0360-4e53-af32-3df7752e4767" valueTypeId="1a8ca413-8e88-4639-8f86-76bb514c4089"/>
+  </producedTypes>
+  <name>ВидыАбонементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды абонементов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыАбонементов.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыАбонементов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e1094c04-0707-4f83-9586-4bc797dc77c8">
+    <name>КоличествоЗанятий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество занятий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f73d3012-35ad-416b-a6a6-0e96df4b5d74">
+    <name>КоличествоДопустимыхПропусков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество допустимых пропусков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2082a20-ee99-4424-a2c8-835e2f74d40f">
+    <name>НеПривязанККурсу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не привязан к курсу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
