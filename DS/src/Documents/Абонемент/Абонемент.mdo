@@ -36,6 +36,7 @@
     <type>
       <types>CatalogRef.Люди</types>
     </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -48,6 +49,7 @@
     <type>
       <types>CatalogRef.ВидыАбонементов</types>
     </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -60,6 +62,7 @@
     <type>
       <types>DocumentRef.Курс</types>
     </type>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
